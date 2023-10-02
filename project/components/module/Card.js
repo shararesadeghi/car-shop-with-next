@@ -1,5 +1,6 @@
 import React from 'react';
 import Location from './../icons/Location';
+import Link from 'next/link';
 
 import styles from './Card.module.css';
 
@@ -8,6 +9,7 @@ const Card = (props) => {
     const{id, name, model, year, distance, location, image, price} = props;
 
     return (
+    <Link href={`/cars/${id}`}>
         <div className={styles.container}>
            <img src={image} className={styles.image} alt="car image"/> 
            <h4 className={styles.title}>{`${name} ${model}`}</h4>
@@ -20,6 +22,7 @@ const Card = (props) => {
                </div>
            </div>
         </div>
+    </Link>
     );
 };
 
