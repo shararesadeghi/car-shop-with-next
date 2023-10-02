@@ -1,10 +1,12 @@
 import React from 'react';
+import CarsList from '../../components/templates/CarsList';
+import carsData from '../../data/carsData';
 
 const Sedan = () => {
+
+    const sedanCars = carsData.filter(car => car.category === "sedan");
     return (
-        <div>
-            
-        </div>
+    <CarsList data={sedanCars}/>
     );
 };
 

@@ -21,7 +21,7 @@ const Categories = () => {
                 <Suv/>
             </div>
             </Link>
-            <Link href="/categories/Hatchback">
+            <Link href="/categories/hatchback">
             <div>
                 <p>Hatchback</p>
                 <Hatchback/>
