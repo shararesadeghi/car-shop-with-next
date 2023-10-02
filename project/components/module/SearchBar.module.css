@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 440px;
+    margin: 50px auto;
+    padding: 5px;
+}
+
+.container div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container input{
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.container button{
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: blueviolet;
+    margin: 5px 0;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+@media (max-width: 600px){
+    .container{
+        width: 320px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container button{
+        width: 100%;
+        margin: 5px;
+    }
+    
+    .container div{
+        margin: 5px;
+    }
+}
