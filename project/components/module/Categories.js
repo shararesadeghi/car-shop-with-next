@@ -17,7 +17,7 @@ const Categories = () => {
             </Link>
             <Link href="/categories/suv">
             <div>
-                <p>Suv</p>
+                <p>SUV</p>
                 <Suv/>
             </div>
             </Link>
@@ -29,7 +29,7 @@ const Categories = () => {
             </Link>
             <Link href="/categories/sport">
             <div>
-                <p>Sport</p>
+                <p>Sport cars</p>
                 <Sport/>
             </div>
             </Link>
